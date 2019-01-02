@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/haofo/ast-test/issues"
   },
-  "homepage": "https://github.com/haofo/ast-test#readme"
+  "homepage": "https://github.com/haofo/ast-test#readme",
+  "dependencies": {
+    "recast": "^0.16.1"
+  }
 }
