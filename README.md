@@ -1,4 +1,4 @@
-# ast-test
+# ast-practice
 
 Parse and build JS code through recast
 
