@@ -1,8 +1,10 @@
 const recast = require('recast')
 const b = recast.types.builders
 
+// 空语句
 const empty = b.emptyStatement()
 
+// 循环
 const loop = b.forStatement(
 	b.variableDeclaration("var", [
 		b.variableDeclarator(b.identifier("i"), b.literal(0))
